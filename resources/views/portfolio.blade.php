@@ -89,12 +89,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="{{ asset('template/assets/img/portfolio/sticker.png') }}" class="img-fluid" alt="">
+              <img src="{{ asset('template/assets/img/portfolio/avi.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Engagements 2</h4>
                 <p>Engagements</p>
                 <div class="portfolio-links">
-                  <a href="{{ asset('template/assets/img/portfolio/sticker.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="{{ asset('template/assets/img/portfolio/avi.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
                   <a href="" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -131,12 +131,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="{{ asset('template/assets/img/portfolio/IMG_2131.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('template/assets/img/portfolio/IMG_4094.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Farm Photo 3</h4>
                 <p>Farm Photo</p>
                 <div class="portfolio-links">
-                  <a href="{{ asset('template/assets/img/portfolio/IMG_2131.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="{{ asset('template/assets/img/portfolio/IMG_4094.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
                   <a href="" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>

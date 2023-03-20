@@ -16,6 +16,8 @@
         <title> Portfolio | Anidaso Farms</title>
     @elseif (Route::currentRouteName() == 'contact-us')
         <title> Contact Us | Anidaso Farms</title>
+    @elseif (Route::currentRouteName() == 'our-blog')
+        <title> Blog | Anidaso Farms</title>
     @endif
   
   <meta content="Anidaso farms is a commercial poultry farm that produces and sells 
@@ -77,7 +79,7 @@
           <li><a @if (Route::currentRouteName() == 'portfolio') class="active" @endif href="{{ route('portfolio') }}">Portfolio</a></li>
           <li><a @if (Route::currentRouteName() == 'our-team') class="active" @endif href="{{ route('our-team') }}">Team</a></li>
           <li><a @if (Route::currentRouteName() == 'our-core-values') class="active" @endif href="{{ route('our-core-values') }}">Core Values</a></li>
-          <li><a href="blog.php">Blog</a></li>
+          <li><a @if (Route::currentRouteName() == 'our-blog') class="active" @endif href="{{ route('our-blog') }}">Blog</a></li>
           <!--<li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>

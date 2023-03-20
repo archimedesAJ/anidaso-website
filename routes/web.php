@@ -42,6 +42,12 @@ Route::get('/contact-us', function(){
     return view('contact');
 })->name('contact-us');
 
+
+Route::get('/our-blog', function(){
+    return view('blog');
+})->name('our-blog');
+
+
 Route::get('/our-shop', function(){
     return view('shop.index');
 })->name('our-shop');
